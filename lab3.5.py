@@ -1,0 +1,5 @@
+first_name = input('What is your name?')
+second_name = input('What is your second name?')
+group = input('What is number your group?')
+email = input('What is your email?')
+print((second_name[:6] + first_name[:6]*2 + email[:6]*3).lower())
