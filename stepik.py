@@ -216,7 +216,19 @@ class BinarySearchTree:
                                                 currentNode.rightChild.rightChild)
     
     
+    def inorder(self,cur):
+    	if cur.leftChild:
+    		self.inorder(cur.leftChild)
+    	print(cur.key)
+    	if cur.rightChild:
+    		self.inorder(cur.rightChild)
     
+    def postorder(self,cur):	
+    	if cur.leftChild:
+    		self.postorder(cur.leftChild)
+    	if cur.rightChild:
+    		self.postorder(cur.rightChild) 
+    	print(cur.key)
 
 
     def preorder(self, cur):
@@ -225,6 +237,8 @@ class BinarySearchTree:
             self.preorder(cur.leftChild)
         if cur.rightChild:
             self.preorder(cur.rightChild)
+
+
         
 
 def postorder(tree):
