@@ -1,0 +1,4 @@
+﻿  Main.c
+B:\SUSU\lab0\lab0\Main.c(14,12): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+B:\SUSU\lab0\lab0\Main.c(15,12): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  lab0.vcxproj -> B:\SUSU\lab0\Debug\lab0.exe
